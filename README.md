@@ -1,4 +1,4 @@
-[![privacytools](https://alperoot.github.io/privacytools-tr.io/img/layout/logo.png)](https://www.privacytools.io/)
+[![privacytools](https://alperoot.github.io/privacytools-tr.io/img/layout/logo.png)](https://alperoot.github.io/privacytools-tr.io/)
 
 _Encryption Against Global Mass Surveillance._
 
