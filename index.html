@@ -55,7 +55,7 @@
 	<!-- Open Graph Protocol tags for SEO -->
 	<meta property="og:title" content="Privacy Tools | Encryption against global mass surveillance" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://www.privacytools.io/" />
+	<meta property="og:url" content="https://alperoot.github.io/privacytools-tr.io/" />
 	<meta property="og:image" content="https://www.privacytools.io/img/layout/ogimage.jpg" />
 	<meta property="og:description" content="You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance."
 	/>
@@ -762,91 +762,88 @@
 		</p>
 
 		<!-- second paragraph -->
-		<p><strong>Çoğu tarayıcının</strong> neyi takip ettiğini bulup sizdeki bu verileri çoğunluğa benzeterek tarayıcınızı daha ayırt edilemez kılabilirsiniz. This means having the same fonts, plugins, and extensions installed as the large installed base. You should
-			have a <a href="https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/">spoofed user agent string</a> to match what the large userbase has. You need have the same settings enabled and disabled, such as DNT and WebGL. You need your browser to
-			look as common as everyone else. Disabling JavaScript, using Linux, or even the TBB, will make your browser stick out from the masses.</p>
+		<p><strong>Çoğu tarayıcının</strong> neyi takip ettiğini bulup sizdeki bu verileri çoğunluğa benzeterek tarayıcınızı daha ayırt edilemez kılabilirsiniz. Bu çoğunluk ile aynı yazı tiplerini, eklentileri kullanmak anlamına gelir. Ayrıca <a href="https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/">sahte bir user agent tanımlayıcısı</a> kullanarak çoğunluğa karışabilirsiniz. WebGL ve DNT gibi ayarlarınızı da çoğunluğa uydurabilirsiniz. JavaScript'i kapatmak, hatta Linux bile kullanmak ne yazık ki tarayıcınızı daha ayırt edilebilir kılacaktır.</p>
 
 		<!-- third paragraph -->
-		<p>Modern web browsers have not been architected to assure personal web privacy. Rather than worrying about being fingerprinted, it seems more practical to use <a href="#addons"><span class="glyphicon glyphicon-link"></span> free software plugins</a> like Privacy Badger, uBlock Origin and Disconnect.
-			They not only respect your freedom, but your privacy also. You can get much further with these than trying to manipulate your browser's fingerprint.</p>
+		<p>Modern web tarayıcıları kişisel gizliliğe önem vermek için inşa edilmemişlerdir. Bu sebeple parmak izini gizlemek yerine Privacy Badger, uBlock Origin ve Disconnect gibi <a href="#addons"><span class="glyphicon glyphicon-link"></span> özgür yazılımlar</a> kullanmak daha pratiktir. Bu eklentiler sadece özgürlüğünüze değil, aynı zamanda gizliliğinize de önem verirler. Bu eklentiler ile parmak izinizi genelleştirmekten çok daha öteye gidebilirsiniz.</p>
 
 		<!-- related information links -->
-		<h3>Related Information</h3>
+		<h3>Alakalı Bilgi</h3>
 		<ul>
-			<li><a href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">How Unique Is Your Web Browser? Peter Eckersley, EFF.</a></li>
-			<li><a href="https://www.reddit.com/r/privacytoolsIO/comments/35pqyl/new_section_browser_fingerprint_is_your_browser/">Join our discussion on reddit.com about browser fingerprinting.</a></li>
-			<li><a href="#addons"><span class="glyphicon glyphicon-link"></span> Our Firefox privacy add-ons section.</a></li>
-			<li><a href="https://www.browserleaks.com/">BrowserLeaks.com</a> - Web browser security testing tools, that tell you what exactly personal identity data may be leaked without any permissions when you surf the Internet.</li>
+			<li><a href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">Web tarayıcınız ne kadar benzersiz? Peter Eckersley, EFF.</a></li>
+			<li><a href="https://www.reddit.com/r/privacytoolsIO/comments/35pqyl/new_section_browser_fingerprint_is_your_browser/">reddit.com'daki parmak izi tartışmasına katılın</a></li>
+			<li><a href="#addons"><span class="glyphicon glyphicon-link"></span> Firefox eklentileri bölümümüz.</a></li>
+			<li><a href="https://www.browserleaks.com/">BrowserLeaks.com</a> - Hangi bilgilerinizin internette nasıl sızabileceğini söyleyen web tarayıcısı araçları.</li>
 		</ul>
 
 		<!-- WebRTC IP Leak Test -->
 		<a class="anchor" name="webrtc"></a>
 		<div class="page-header">
-			<h1><a href="#webrtc" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> WebRTC IP Leak Test - Is your IP address leaking?</h1>
+			<h1><a href="#webrtc" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> WebRTC IP Sızıntı Testi - IP adresiniz internete sızıyor mu?</h1>
 		</div>
 
 		<!-- red alert message about WebRTC being a new communication protocol... -->
 		<div class="alert alert-danger" role="alert">
-			<strong>WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.</strong>
+			<strong>Yeni bir protokol olan ve JavaScript tabanlı WebRTC, bir VPN servisinin arkasından gerçek IP'nizi sızdırıyor olabilir.</strong>
 		</div>
 
 		<!-- first sentence -->
-		<p>While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe.</p>
+		<p>NoScript gibi eklentiler bunu engelleyebilse bile bu protokolü tamamen kapatmak daha güvenlidir.</p>
 
 		<!-- orange "Test your Browser now" button -->
 		<p>
 			<a href="webrtc.html">
-				<button type="button" class="btn btn-warning">Test your Browser now</button>
+				<button type="button" class="btn btn-warning">Tarayıcınızı şimdi test edin</button>
 			</a>
 		</p>
 
 		<!-- heading: How to disable WRTC in Firefox? -->
-		<h3>How to disable WebRTC in Firefox?</h3>
+		<h3>Firefox'da WebRTC nasıl kapatılır?</h3>
 
 		<!-- steps on manually disabling WRTC in Firefox -->
-		<p>In short: Set "media.peerconnection.enabled" to "false" in "about:config".</p>
-		<p><strong>Explained:</strong></p>
+		<p>Kısaca: "about:config"'deki "media.peerconnection.enabled" değişkenini "false" olarak ayarlayın.</p>
+		<p><strong>Açıklama:</strong></p>
 		<ol>
-			<li>Enter "about:config" in the firefox address bar and press enter.</li>
-			<li>Press the button "I'll be careful, I promise!"</li>
-			<li>Search for "media.peerconnection.enabled"</li>
-			<li>Double click the entry, the column "Value" should now be "false"</li>
-			<li>Done. Do the WebRTC leak test again.</li>
+			<li>Firefox adres kutusuna "about:config" yazıp enter'a basın.</li>
+			<li>"Riski kabul ediyorum!" kutusuna basın.</li>
+			<li>"media.peerconnection.enabled"'ı arayın</li>
+			<li>Değere iki kez tıklatın, "Value" kısmı "false"'a dönmelidir.</li>
+			<li>Bu kadar. Şimdi WebRTC testini bir daha yapabilirsiniz.</li>
 		</ol>
 
-		<p>If you want to make sure every single WebRTC related setting is really disabled change these settings:</p>
+		<p>WebRTC ile alakalı tüm ayarları kapatmak istiyorsanız, aşağıdaki tüm ayarları kapatmalısınız.</p>
 		<ol>
 			<li>media.peerconnection.turn.disable = true</li>
 			<li>media.peerconnection.use_document_iceservers = false</li>
 			<li>media.peerconnection.video.enabled = false</li>
 			<li>media.peerconnection.identity.timeout = 1</li>
 		</ol>
-		<p>Now you can be 100% sure WebRTC is disabled.</p>
+		<p>Artık WebRTC'nin kapandığından tamamen emin olabilirsiniz.</p>
 
 		<!-- the "Test your Browser again" button -->
 		<p>
 			<a href="webrtc.html">
-				<button type="button" class="btn btn-primary">Test your Browser again</button>
+				<button type="button" class="btn btn-primary">Tarayıcınızı bir daha test edin</button>
 			</a>
 		</p>
 
 		<!-- steps to manually disable WebRTC in Chrome -->
-		<h3>How to fix the WebRTC Leak in Google Chrome?</h3>
-		<p>WebRTC cannot be fully disabled in Chrome, however it is possible to change its routing settings (and prevent leaks) using an extension. Two open source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
+		<h3>Google Chrome'da WebRTC nasıl kapatılır?</h3>
+		<p>Chrome'da WebRTC'yi tamamen kapatamazsınız, fakat bir tarayıcı eklentisi kullanarak sızıntıları engelleyebilirsiniz. İki tane açık kaynak eklenti mevcuttur: <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (olaya göre ayarlanması gerekebilir), ve <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (Ayarlar'dan "WebRTC'nin yerel IP adreslerini sızdırmasını engelle" seçeniğini seçin).</p>
 
-		<h3>What about other browsers?</h3>
-		<p>Chrome on iOS, Internet Explorer and Safari does not implement WebRTC yet. <a href="#browser"><span class="glyphicon glyphicon-link"></span> But we recommend using Firefox on all devices.</a></p>
+		<h3>Peki ya diğer tarayıcılar?</h3>
+		<p>iOS için Chrome, Internet Explorer ve Safari WebRTC'yi desteklememektedir. <a href="#browser"><span class="glyphicon glyphicon-link"></span> Biz yine de tüm cihazlarınızda Firefox öneriyoruz.</a></p>
 
 
 		<!-- Firefox add-ons -->
 		<a class="anchor" name="addons"></a>
 
 		<div class="page-header">
-			<h1><a href="#addons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Excellent Firefox Privacy Add-ons</h1>
+			<h1><a href="#addons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Firefox Gizlilik Eklentileri</h1>
 		</div>
 
 		<div class="alert alert-success" role="alert">
-			<strong>Improve your privacy with these excellent Firefox add-ons.</strong>
+			<strong>Bu Firefox eklentileri ile güvenliğinizi artırın.</strong>
 		</div>
 
 
