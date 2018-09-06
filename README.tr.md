@@ -22,7 +22,7 @@ Lütfen katılmadan önce bunları dikkatlice okuyunuz.
 - Sadece İngilizce ve Türkçe kullanınız.
 - Yıkıcı değil yapıcı olunuz.
 
-## Önemli Olan Sayı Değil Kalıte
+## Önemli Olan Sayı Değil Kalite
 
 Site kullanımının daha pratik olması için tüm uygulamaları değil, sadece en iyi uygulamala ve yazılımları paylaşıyoruz. Her başlık için en fazla 3 tane program veya eklenti listeliyoruz, fakat fazlası gerekirse "Bahsetmeye Değer" adı altında daha fazlası eklenebilir. ([örnek](https://alperoot.github.io/privacytools-tr.io/#im))
 
@@ -35,7 +35,7 @@ Site kullanımının daha pratik olması için tüm uygulamaları değil, sadece
 
 Eğer bu kriterlere uyan hiç yazılım yoksa bunlardan bazı ödünler verilebilir.
 
-## Images
+## Resimler ve Logolar
 
 - Sağlayıcı logoları 200 x 70 boyutunda olmalıdır ([örnek](https://alperoot.github.io/privacytools-tr.io/img/provider/AirVPN.gif))
 - Yazılım ve eklenti logoları 120 x 120 boyutunda olmalıdır ([example](https://alperoot.github.io/privacytools-tr.io/img/tools/ChatSecure.png))
@@ -54,5 +54,5 @@ Eğer bu kriterlere uyan hiç yazılım yoksa bunlardan bazı ödünler verilebi
 - [Italiano / İtalyanca](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
 - [Русский / Rusça](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
-# License
+# Lisans
 [GNU Genel Lisansı v3](https://github.com/alperoot/privacytools-tr.io/blob/master/LICENSE.txt)
