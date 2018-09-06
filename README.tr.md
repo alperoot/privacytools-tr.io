@@ -38,12 +38,12 @@ Eğer bu kriterlere uyan hiç yazılım yoksa bunlardan bazı ödünler verilebi
 ## Resimler ve Logolar
 
 - Sağlayıcı logoları 200 x 70 boyutunda olmalıdır ([örnek](https://alperoot.github.io/privacytools-tr.io/img/provider/AirVPN.gif))
-- Yazılım ve eklenti logoları 120 x 120 boyutunda olmalıdır ([example](https://alperoot.github.io/privacytools-tr.io/img/tools/ChatSecure.png))
+- Yazılım ve eklenti logoları 120 x 120 boyutunda olmalıdır ([örnek](https://alperoot.github.io/privacytools-tr.io/img/tools/ChatSecure.png))
 
 # privacytools-tr.io'yu destekleyin
 
-- [Bağış yapın.](https://privacytoolsio.github.io/privacytools.io/donate.html)
-- [Yayılmamıza yardım edin.](https://privacytoolsio.github.io/privacytools.io/#participate)
+- [Bağış yapın.](https://alperoot.github.io/privacytools-tr.io/donate.html)
+- [Yayılmamıza yardım edin.](https://alperoot.github.io/privacytools-tr.io/#participate)
 - [Reddit'deki tartışmalara katılın.](https://www.reddit.com/r/privacytoolsIO/)
 - GitHub'daki kodumuza düzeltmeler ve eklemeler yapın.
 
