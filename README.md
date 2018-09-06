@@ -2,7 +2,7 @@
 
 _Encryption Against Global Mass Surveillance._
 
-*language: [English](README.md), [Turkish](README.tr.md)*
+*Language: [English](README.md), [Turkish](README.tr.md)*
 
 # Contributing
 
