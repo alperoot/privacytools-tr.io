@@ -53,5 +53,4 @@ There can be exceptions if no software is available that meet the criteria.
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 # License
-[GPLv3](https://github.com/alperoot/privacytools-tr.io/blob/master/LICENSE.txt)
-# privacytools-tr.io
+[GNU General Public License v3](https://github.com/alperoot/privacytools-tr.io/blob/master/LICENSE.txt)
