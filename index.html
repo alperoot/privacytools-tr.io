@@ -926,71 +926,71 @@
 		<a class="anchor" name="about_config"></a>
 
 		<div class="page-header">
-			<h1><a href="#about_config" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Firefox: Privacy Related "about:config" Tweaks</h1>
+			<h1><a href="#about_config" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Firefox: Gizlilik İçin Değiştirilmesi Gereken "about:config" Değişkenleri</h1>
 		</div>
 
-		<div class="alert alert-success" role="alert">This is a collection of privacy related <strong>about:config</strong> tweaks. We'll show you how to enhance the privacy of your Firefox browser.</div>
+		<div class="alert alert-success" role="alert">Aşağıdakiler, gizlilik adına değiştirebileceğiniz <strong>about:config</strong> değişimlerini içermektedir.</div>
 
 		<!-- preparation list -->
-		<h3>Preparation:</h3>
+		<h3>Hazırlık:</h3>
 		<ol>
-			<li>Enter "about:config" in the firefox address bar and press enter.</li>
-			<li>Press the button "I'll be careful, I promise!"</li>
-			<li>Follow the instructions below...</li>
+			<li>Firefox adres kutusuna "about:config" yazıp enter'a basın.</li>
+			<li>"Riski kabul ediyorum!" kutusuna basın.</li>
+			<li>Aşağıdaki yönergeleri takip edin...</li>
 		</ol>
 
 		<!-- Getting started list -->
-		<h3>Getting started:</h3>
+		<h3>Başlangıç:</h3>
 
 		<ol>
 			<li>privacy.firstparty.isolate = true</li>
 			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)</li>
+				<li><a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>'in bir ürünü olan bu ayar, tarayıcı tanımlayıcılarınızı (çerezler gibi) sadece birinci parti sunucuların erişimine alır, ve bu sayede siteler arası takibi engeller. (Firefox v58 ve üstünde "Cookie AutoDelete" kullanıyorsanız bunu yapmayın.)</li>
 			</ul>
 
 			<li>privacy.resistFingerprinting = true</li>
 			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
+				<li><a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>'in bir ürünü olan bu ayar, tarayıcınızı parmak izi takibine daha dirençli kılar.</li>
 			</ul>
 
 			<li>privacy.trackingprotection.enabled = true</li>
 			<ul>
-				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
+				<li>Bu ayar, Firefox'un kendi takip koruma özelliğini aktif eder. Disconnect.me listelerini kullandığı için uBlock Origin üçüncü parti filtelerini kullanıyorsanız bu değişimi yapmamalısınız.</li>
 			</ul>
 
 			<li>browser.cache.offline.enable = false</li>
 			<ul>
-				<li>Disables offline cache.</li>
+				<li>Çevrimdışı önbelleği devre dışı bırakır.</li>
 			</ul>
 
 			<li>browser.safebrowsing.malware.enabled = false</li>
 			<ul>
-				<li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li>
+				<li>Google Safe Browsing zararlı yazılım denetimini kapatır. Güvenlik açısından biraz tehlikelidir, fakat gizlilik için önemlidir.</li>
 			</ul>
 
 			<li>browser.safebrowsing.phishing.enabled = false</li>
 			<ul>
-				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
+				<li>Google Safe Browsing sahte sayfa korumasını kapatır. Güvenlik açısından biraz tehlikelidir, fakat gizlilik için önemlidir.</li>
 			</ul>
 
 			<li>browser.send_pings = false</li>
 			<ul>
-				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
+				<li>Takipçilerin fare tıklamalarınızı takip etmesini zorlaştırır. </li>
 			</ul>
 
 			<li>browser.sessionstore.max_tabs_undo = 0</li>
 			<ul>
-				<li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
+				<li>Firefox'u geçmiş tutmayacak şekilde ayarlasanız bile geçmişiniz geçici olarak şu bölgelerde saklanır: Menü -&gt; Geçmiş -&gt; Yeni Kapatılan Sekmeler.</li>
 			</ul>
 
 			<li>browser.urlbar.speculativeConnect.enabled = false</li>
 			<ul>
-				<li>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></li>
+				<li>Eksik yazılmış URL'lerin otomatik tamamlanmasını kapatır. Firefox tamamlanmamış URL'lerin önerilerini önbelleğe kayeder, fakat potansiyel olarak istenmeyen URL'ler önerilirse bu bir güvenlik sorunudur. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Kaynak</a></li>
 			</ul>
 
 			<li>dom.battery.enabled = false</li>
 			<ul>
-				<li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
+				<li>Bu ayarı kapatanız web sitelerinin batarya seviyenizi izlemelerini önler. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
 			</ul>
 
 			<li>dom.event.clipboardevents.enabled = false</li>
