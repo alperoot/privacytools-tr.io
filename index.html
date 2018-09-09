@@ -1043,47 +1043,47 @@
 
       <li>network.http.referer.XOriginTrimmingPolicy = 2</li>
       <ul>
-        <li>When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
-        <li>0 = Send full url in <code>Referer</code></li>
-        <li>1 = Send url without query string in <code>Referer</code></li>
-        <li>2 = Only send scheme, host, and port in <code>Referer</code></li>
+        <li><code>Referer</code> kaynaklar arası gönderilirken bu kaynakların <code>Referer</code> gönderilerinde sadece düzen, port ve makine adresini gönder. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Kaynak</a></li>
+        <li>0 = <code>Referer</code> gönderisinde tüm URL'yi gönder</li>
+        <li>1 = <code>Referer</code> gönderisinde URL'yi query bilgisi olmadan gönder</li>
+        <li>2 = <code>Referer</code> gönderisinde sadece düzen, makine adresi ve port bilgilerini gönder</li>
       </ul>
 
 			<li>webgl.disabled = true</li>
 			<ul>
-				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
+				<li>WebGL, potansiyel bir güvenlik riskidir. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
 			</ul>
 
 			<li>browser.sessionstore.privacy_level = 2</li>
 			<ul>
-				<li>This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">more information</a></li>
-				<li>0 = Store extra session data for any site. (Default starting with Firefox 4.)</li>
-        <li>1 = Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)</li>
-        <li>2 = Never store extra session data.</li>
+				<li>Bu ayar bir sekme açık olduğu boyunca tutulan form verileri, sayfada bulunulan yer, POST verileri ve çerezler gibi bilgilerin tutulmasını denetler. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">daha fazla bilgi</a></li>
+				<li>0 = Bütün siteler için sekme verisi tut. (Varsayılan olarak Firefox 4.'den itibaren)</li>
+        <li>1 = Sadece şifrelenmemiş (HTTPS olmayan) siteler için sekme verisi tut. (Varsayılan olarak Firefox 4.'den itibaren)</li>
+        <li>2 = Asla sekme verisi tutma.</li>
 			</ul>
 
 			<li>network.IDN_show_punycode = true</li>
 			<ul>
-				<li>Not rendering IDNs as their punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></li>
+				<li>IDN'leri punycode versiyonları ile görüntülememek sizi farkedilmesi zor phishing saldırılarına maruz bırakabilir. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Kaynak</a></li>
 			</ul>
 		</ol>
 
 		<!-- related information -->
-		<h3>Related Information</h3>
+		<h3>Önemli Bilgi</h3>
 		<ul>
-			<li><a href="https://ffprofile.com/">ffprofile.com</a> - Helps you to create a Firefox profile with the defaults you like.</li>
-			<li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> - Security and privacy-related preferences. </li>
-			<li><a href="https://github.com/pyllyukko/user.js">user.js Firefox hardening stuff</a> - This is a user.js configuration file for Mozilla Firefox that's supposed to harden Firefox's settings and make it more secure.</li>
-			<li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - A Firefox addon to alter built-in privacy settings easily with a toolbar panel.</li>
+			<li><a href="https://ffprofile.com/">ffprofile.com</a> - Seçeneklerinize göre bir Firefox profili oluşturmanıza yardım eder.</li>
+			<li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> - Güvenlik ve gizlilik ile alakalı seçenekler. </li>
+			<li><a href="https://github.com/pyllyukko/user.js">user.js Firefox güvenlik artırıcıları</a> - Mozilla Firefox'u daha gizli yapmak için hazırlanmış bir user.js dosyası.</li>
+			<li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - Firefox'la birlikte gelen gizlilik özelliklerini kullanmayı kolaylaştıran bir eklenti.</li>
 		</ul>
 
 		<a class="anchor" name="email"></a>
 		<div class="page-header">
-			<h1><a href="#email" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Privacy-Conscious Email Providers - No Affiliates</h1>
+			<h1><a href="#email" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Gizliliğinize Önem Veren E-Posta Servisleri - Sponsorsuz</h1>
 		</div>
 
 		<div class="alert alert-success" role="alert">
-			<strong>All providers listed here are operating outside the US and support <a data-toggle="tooltip" data-placement="bottom" data-original-title="When sending or receiving emails, if both the sending and receiving servers support TLS encryption, the email is sent between servers using an encrypted connection.">SMTP TLS.</a> The table is sortable. Never trust any company with your privacy, always encrypt.</strong>
+			<strong>Aşağıda listelenen hizmetlerin hiçbiri ABD merkezli değildir ve hepsi <a data-toggle="tooltip" data-placement="bottom" data-original-title="When sending or receiving emails, if both the sending and receiving servers support TLS encryption, the email is sent between servers using an encrypted connection.">SMTP TLS</a> destekler. Tablo sıralanabilir. Hiçbir şirkete gizliliğiniz ile güvenmeyin, her zaman şifreleme kullanın.</strong>
 		</div>
 
 		<br>
@@ -1091,15 +1091,15 @@
 <table class="sortable-theme-bootstrap" data-sortable>
 			<thead>
 				<tr>
-					<th data-sortable="true">Email Service</th>
+					<th data-sortable="true">E-posta hizmeti</th>
 					<th data-sortable="true">URL</th>
-					<th data-sortable="true">Since</th>
-					<th data-sortable="true">Server</th>
-					<th data-sortable="true">Storage</th>
-					<th data-sortable="true">Price / Year</th>
+					<th data-sortable="true">Kuruluş</th>
+					<th data-sortable="true">Sunucu</th>
+					<th data-sortable="true">Depolama</th>
+					<th data-sortable="true">Fiyat / Yıl</th>
 					<th data-sortable="true">Bitcoin</th>
-					<th data-sortable="true">Encryption</th>
-					<th data-sortable="true">Own Domain</th>
+					<th data-sortable="true">Şifreleme</th>
+					<th data-sortable="true">Kendi Alan Adı Mı?</th>
 				</tr>
 			</thead>
 
@@ -1114,12 +1114,12 @@
 						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://protonirockerxow.onion. Requires specific software to access: torproject.org" href="https://protonirockerxow.onion"><img src="img/layout/tor.png" width="35"></img></a>
 					</td>
 					<td data-value="2013">2013</td>
-					<td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
+					<td><span class="flag-icon flag-icon-ch"></span> İsviçre</td>
 					<td data-value="500">500 MB</td>
-					<td data-value="0"><span class="label label-warning">Free</span></td>
-					<td data-value="1"><span class="label label-success">Accepted</span></td>
-					<td data-value="1"><span class="label label-success">Built-in</span></td>
-					<td data-value="1"><span class="label label-success">Yes</span></td>
+					<td data-value="0"><span class="label label-warning">Bedava</span></td>
+					<td data-value="1"><span class="label label-success">Geçerli</span></td>
+					<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+					<td data-value="1"><span class="label label-success">Evet</span></td>
 				</tr>
 
 				<tr>
@@ -1130,12 +1130,12 @@
 						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://disroot.org" href="https://disroot.org"><img src="img/layout/www.png" width="35"></img></a>
 					</td>
 					<td data-value="2015">2015</td>
-					<td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
+					<td><span class="flag-icon flag-icon-nl"></span> Hollanda</td>
 					<td data-value="2000">2 GB</td>
-					<td data-value="1"><span class="label label-warning">Free</span></td>
-					<td data-value="1"><span class="label label-success">Accepted</span></td>
-					<td data-value="1"><span class="label label-success">Built-in</span></td>
-					<td data-value="1"><span class="label label-success">Yes</span></td>
+					<td data-value="1"><span class="label label-warning">Bedava</span></td>
+					<td data-value="1"><span class="label label-success">Geçerli</span></td>
+					<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+					<td data-value="1"><span class="label label-success">Evet</span></td>
 				</tr>
 
 				<tr>
@@ -1146,12 +1146,12 @@
 						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.tutanota.com" href="https://www.tutanota.com"><img src="img/layout/www.png" width="35"></img></a>
 					</td>
 					<td data-value="2011">2011</td>
-					<td><span class="flag-icon flag-icon-de"></span> Germany</td>
+					<td><span class="flag-icon flag-icon-de"></span> Almanya</td>
 					<td data-value="1000">1 GB</td>
-					<td data-value="0"><span class="label label-warning">Free</span></td>
-					<td data-value="0"><span class="label label-primary">No</span></td>
-					<td data-value="1"><span class="label label-success">Built-in</span></td>
-					<td data-value="1"><span class="label label-success">Yes</span></td>
+					<td data-value="0"><span class="label label-warning">Bedava</span></td>
+					<td data-value="0"><span class="label label-primary">Geçerli Değil</span></td>
+					<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+					<td data-value="1"><span class="label label-success">Evet</span></td>
 				</tr>
 
 				<tr>
@@ -1162,12 +1162,12 @@
 						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailfence.com" href="https://www.mailfence.com"><img src="img/layout/www.png" width="35"></img></a>
 					</td>
 					<td data-value="2013">2013</td>
-					<td><span class="flag-icon flag-icon-be"></span> Belgium</td>
+					<td><span class="flag-icon flag-icon-be"></span> Belçika</td>
 					<td data-value="500">500 MB</td>
-					<td data-value="0"><span class="label label-warning">Free</span></td>
-					<td data-value="1"><span class="label label-success">Accepted</span></td>
-					<td data-value="1"><span class="label label-success">Built-in</span></td>
-					<td data-value="1"><span class="label label-success">Yes</span></td>
+					<td data-value="0"><span class="label label-warning">Bedava</span></td>
+					<td data-value="1"><span class="label label-success">Geçerli</span></td>
+					<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+					<td data-value="1"><span class="label label-success">Evet</span></td>
 				</tr>
 
 				<tr>
@@ -1180,12 +1180,12 @@
 							<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailbox.org" href="https://www.mailbox.org"><img src="img/layout/www.png" width="35"></img></a>
 						</td>
 						<td data-value="2014">2014</td>
-						<td><span class="flag-icon flag-icon-de"></span> Germany</td>
+						<td><span class="flag-icon flag-icon-de"></span> Almanya</td>
 						<td data-value="2000">2 GB</td>
 						<td data-value="13">12 €</td>
-						<td data-value="1"><span class="label label-success">Accepted</span></td>
-						<td data-value="1"><span class="label label-success">Built-in</span></td>
-						<td data-value="1"><span class="label label-success">Yes</span></td>
+						<td data-value="1"><span class="label label-success">Geçerli</span></td>
+						<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+						<td data-value="1"><span class="label label-success">Evet</span></td>
 					</tr>
 
 					<tr>
@@ -1197,12 +1197,12 @@
 								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.posteo.de" href="https://www.posteo.de"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2009">2009</td>
-							<td><span class="flag-icon flag-icon-de"></span> Germany</td>
+							<td><span class="flag-icon flag-icon-de"></span> Almanya</td>
 							<td data-value="2000">2 GB</td>
 							<td data-value="13">12 €</td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
-							<td data-value="1"><span class="label label-success">Built-in</span></td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
+							<td data-value="0"><span class="label label-primary">Geçerli Değil</span></td>
+							<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+							<td data-value="0"><span class="label label-primary">Hayır</span></td>
 						</tr>
 
 						<tr>
@@ -1214,12 +1214,12 @@
 								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://runbox.com" href="https://runbox.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="1999">1999</td>
-							<td><span class="flag-icon flag-icon-no"></span> Norway</td>
+							<td><span class="flag-icon flag-icon-no"></span> Norveç</td>
 							<td data-value="1000">1 GB</td>
 							<td data-value="20">$ 19.95</td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
-							<td data-value="1"><span class="label label-success">Yes</span></td>
+							<td data-value="0"><span class="label label-primary">Geçerli Değil</span></td>
+							<td data-value="0"><span class="label label-primary">Yok</span></td>
+							<td data-value="1"><span class="label label-success">Evet</span></td>
 						</tr>
 
 						<tr>
@@ -1230,12 +1230,12 @@
 								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.neomailbox.com" href="https://www.neomailbox.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2003">2003</td>
-							<td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
+							<td><span class="flag-icon flag-icon-ch"></span> İsviçre</td>
 							<td data-value="1000">1 GB</td>
 							<td data-value="50">$ 49.95</td>
-							<td data-value="1"><span class="label label-success">Accepted</span></td>
-							<td data-value="1"><span class="label label-success">Built-in</span></td>
-							<td data-value="1"><span class="label label-success">Yes</span></td>
+							<td data-value="1"><span class="label label-success">Geçerli</span></td>
+							<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
+							<td data-value="1"><span class="label label-success">Evet</span></td>
 						</tr>
 
 						<tr>
@@ -1246,11 +1246,11 @@
 								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.startmail.com" href="https://www.startmail.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2014">2014</td>
-							<td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
+							<td><span class="flag-icon flag-icon-nl"></span> Hollanda</td>
 							<td data-value="10000">10 GB</td>
 							<td data-value="60">$ 59.95</td>
-							<td data-value="0"><span class="label label-success">Accepted</span></td>
-							<td data-value="1"><span class="label label-success">Built-in</span></td>
+							<td data-value="0"><span class="label label-success">Geçerli</span></td>
+							<td data-value="1"><span class="label label-success">Varsayılan Olarak Var</span></td>
 							<td data-value="1"><span class="label label-success">Yes</span></td>
 						</tr>
 
@@ -1262,12 +1262,12 @@
 								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.kolabnow.com" href="https://www.kolabnow.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2010">2010</td>
-							<td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
+							<td><span class="flag-icon flag-icon-ch"></span> İsviçre</td>
 							<td data-value="2048">2 GB</td>
 							<td data-value="60">$ 60</td>
-							<td data-value="1"><span class="label label-success">Accepted</span></td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
-							<td data-value="1"><span class="label label-success">Yes</span></td>
+							<td data-value="1"><span class="label label-success">Geçerli</span></td>
+							<td data-value="0"><span class="label label-primary">Yok</span></td>
+							<td data-value="1"><span class="label label-success">Evet</span></td>
 						</tr>
 
 			</tbody>
@@ -1275,14 +1275,13 @@
 
 		<br>
 
-		<h3>Interesting Email Providers Under Development</h3>
+		<h3>Henüz Yapım Aşamasında Olan İlginç E-Post Hizmetleri</h3>
 		<ul>
-			<li><a href="https://www.confidantmail.org/">Confidant Mail</a> - An open-source non-SMTP cryptographic email system optimized for large file attachments. It is a secure and spam-resistant alternative to regular email and online file drop services. It
-				uses <a href="https://theprivacyguide.org/tutorials/gpg.html">GNU Privacy Guard (GPG)</a> for content encryption and authentication, and TLS 1.2 with ephemeral keys for transport encryption.</li>
+			<li><a href="https://www.confidantmail.org/">Confidant Mail</a> - Açık kaynaklı, SMTP'siz ve şifrelemeli olan bu e-posta hizmeti büyük dosyalar göndermek için optimize edilmiş. Aslında bir bakıma internetteki diğer e-posta ve dosya yükleme hizmetlerine karı güvenli ve spam korumalı bir alternatif. Şifreleme ve giriş yapma için <a href="https://theprivacyguide.org/tutorials/gpg.html">GNU Gizlilik Koruyucusu (GPG)</a>, dosya gönderi güvenliği için ise geçici anahtarlı TLS 1.2 kullanıyor.</li>
 		</ul>
 
 
-		<h3>Become Your Own Email Provider with Mail-in-a-Box</h3>
+		<h3>Mail-in-a-Box ile Kendi E-Posta Hizmetinizi Yönetin</h3>
 		<a href="https://mailinabox.email/"><img src="img/provider/Mail-in-a-Box.gif" class="img-responsive pull-left" alt="Mail-in-a-Box" style="margin-right:10px;"></a>
 		<p>Take it a step further and get control of your email with this easy-to-deploy mail server in a box. Mail-in-a-Box lets you become your own mail service provider in a few easy steps. It’s sort of like making your own gmail, but one you control from top
 			to bottom. Technically, Mail-in-a-Box turns a fresh cloud computer into a working mail server. But you don’t need to be a technology expert to set it up. <strong>More: <a href="https://mailinabox.email/">https://mailinabox.email/</a></strong></p>
