@@ -990,55 +990,55 @@
 
 			<li>dom.battery.enabled = false</li>
 			<ul>
-				<li>Bu ayarı kapatanız web sitelerinin batarya seviyenizi izlemelerini önler. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
+				<li>Bu ayarı kapatanız web sitelerinin batarya seviyenizi izlemelerini önler. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Kaynak</a></li>
 			</ul>
 
 			<li>dom.event.clipboardevents.enabled = false</li>
 			<ul>
-				<li>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</li>
+				<li> Web sunucularına kopyalama yapıpı yapmadığınızın veya nereyi kopyaladığınızın bildirilmesini önler.</li>
 			</ul>
 
 			<li>geo.enabled = false</li>
 			<ul>
-				<li>Disables geolocation.</li>
+				<li>Geolokasyon'u kapatır.</li>
 			</ul>
 
 			<li>media.navigator.enabled = false</li>
 			<ul>
-				<li>Websites can track the microphone and camera status of your device.</li>
+				<li>Web sitelerinin, cihazınızın kamera ya da mikrofonuna olan erişimini keser.</li>
 			</ul>
 
 			<li>network.cookie.cookieBehavior = 1</li>
 			<ul>
-				<li>Disable cookies</li>
-				<li>0 = Accept all cookies by default</li>
-				<li>1 = Only accept from the originating site (block third party cookies)</li>
-				<li>2 = Block all cookies by default</li>
+				<li>Çerezleri Kapatır</li>
+				<li>0 = Varsayılan olarak tüm çerezleri kabul et</li>
+				<li>1 = Üçüncü parti çerezleri engelle</li>
+				<li>2 = Tüm çerezleri engeller</li>
 			</ul>
 
 			<li>network.cookie.lifetimePolicy = 2</li>
 			<ul>
-				<li>cookies are deleted at the end of the session</li>
-				<li>0 = Accept cookies normally</li>
-				<li>1 = Prompt for each cookie</li>
-				<li>2 = Accept for current session only</li>
-				<li>3 = Accept for N days</li>
+				<li>Çerezleri kullanım sonunda siler</li>
+				<li>0 = Çerezleri normal olarak kabul et</li>
+				<li>1 = Her çerez için sor</li>
+				<li>2 = Çerezleri sadece o anki kullanım sürecince kabul et</li>
+				<li>3 = Çerezler N gün kadar tutulur</li>
 			</ul>
 
       <li>network.http.referer.trimmingPolicy = 2</li>
       <ul>
-        <li>Send only the scheme, host, and port in the <code>Referer</code> header</li>
-        <li>0 = Send the full URL in the <code>Referer</code> header</li>
-        <li>1 = Send the URL without its query string in the <code>Referer</code> header</li>
-        <li>2 = Send only the scheme, host, and port in the <code>Referer</code> header</li>
+        <li><code>Referer</code> gönderisinde sadece düzen, makine adresi ve port bilgilerini gönder</li>
+        <li>0 = <code>Referer</code> gönderisinde tüm URL'yi gönder</li>
+        <li>1 = <code>Referer</code> gönderisinde URL'yi query bilgisi olmadan gönder</li>
+        <li>2 = <code>Referer</code> gönderisinde sadece düzen, makine adresi ve port bilgilerini gönder</li>
       </ul>
 
       <li>network.http.referer.XOriginPolicy = 2</li>
       <ul>
-        <li>Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
-        <li>0 = Send <code>Referer</code> in all cases</li>
-        <li>1 = Send <code>Referer</code> to same eTLD sites</li>
-        <li>2 = Send <code>Referer</code> only when the full hostnames match</li>
+        <li><code>Referer</code> gönderisini sadece makine isimleri eşleşince gönder. (Not: eğer bu ayarın çok sorun çıkardığını görürseniz bu ayarı <code>1</code> parametresi ve aşağıdaki <code>XOriginTrimmingPolicy</code> ayarlaması ile kullanabilirsiniz.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Kaynak</a></li>
+        <li>0 = <code>Referer</code> gönderisini her zaman gönder</li>
+        <li>1 = <code>Referer</code> gönderisini sadece aynı eTLD sitelerine gönder</li>
+        <li>2 = <code>Referer</code> gönderisini sadece makine isimleri eşleşince gönder</li>
       </ul>
 
       <li>network.http.referer.XOriginTrimmingPolicy = 2</li>
